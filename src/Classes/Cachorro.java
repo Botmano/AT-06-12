@@ -1,12 +1,31 @@
 package src.Classes;
 
-public class Cachorro {
-    public String nome;
-    private String raca;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import com.j256.ormlite.table.DatabaseTable;
+import com.j256.ormlite.field.DatabaseField;
+import com.j256.ormlite.field.DataType;
+
+@DatabaseTable(tableName = "cachorro")
+public class Cachorro
+{
+    @DatabaseField(generatedId = true)
+    private int id;
+
+    @DatabaseField
+    private String nome;
+
+    @DatabaseField
     private int idade;
-    private double peso;
+
+    @DatabaseField
+    public double peso;
+    @DatabaseField
+    private  String alimentacao;
+    @DatabaseField
+    private String raca;
+    @DatabaseField
     private String comportamento;
-    private String alimentacao;
 
     public void setIdade(int idade) {
         this.idade = idade;

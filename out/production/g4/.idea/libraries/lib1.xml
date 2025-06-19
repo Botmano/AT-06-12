@@ -1,10 +1,15 @@
 <component name="libraryTable">
   <library name="lib1">
     <CLASSES>
-      <root url="file://F:/Bibliotecas/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/lib" />
+      <root url="file://$PROJECT_DIR$/../../Bibliotecas/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/lib" />
+      <root url="jar://$PROJECT_DIR$/../../Bibliotecas/ormlite-core-6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Bibliotecas/ormlite-jdbc-6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Bibliotecas/slf4j-api-2.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Bibliotecas/slf4j-simple-2.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Bibliotecas/sqlite-jdbc-3.46.0.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
-    <jarDirectory url="file://F:/Bibliotecas/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../Bibliotecas/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/lib" recursive="false" />
   </library>
 </component>
